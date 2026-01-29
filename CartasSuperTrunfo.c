@@ -33,10 +33,9 @@ int main(){
 
     //Exibição e Comparação das Cartas
     printf("\n---Comparação das Cartas (População) ---\n");
-    printf("Carta 1 - Cidade: %s, População: %d\n", nomeCidade1, populacao1);
-    printf("Carta 2 - Cidade: %s, População: %d\n", nomeCidade2, populacao2);
-    scanf("%d", &populacao1);
-    scanf("%d", &populacao2);
+    printf("Carta 1 (%s): %d\n", codigo1, populacao1);
+    printf("Carta 2 (%s): %d\n", codigo2, populacao2);
+    
 
     
 
