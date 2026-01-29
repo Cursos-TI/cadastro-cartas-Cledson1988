@@ -12,10 +12,10 @@ int main(){
     int pontos1 = 0, pontos2 = 0;
 
     //Cadastro da Carta 1
-    printf("---Cadastro Carta 1 ---\n");
+    printf("\n---Cadastro Carta 1 ---\n");
     printf("Estado: "); scanf("%c", &Estado1);
-    printf("Codigo da Cidade: "); scanf("%s", &codigo1);
-    printf("Nome da Cidade: "); scanf("%s", &nomeCidade1);
+    printf("Codigo da Cidade: \n"); scanf("%s", &codigo1);
+    printf("Nome da Cidade: \n"); scanf("%s", &nomeCidade1);
     printf("Populacao: "); scanf("%d", &populacao1);
     printf("Area: "); scanf("%f", &area1);
     printf("PIB: "); scanf("%f", &PIB1);
@@ -24,8 +24,8 @@ int main(){
     //Cadastro da Carta 2
     printf("\n---Cadastro Carta 2 ---\n");
     printf("Estado: "); scanf("%c", &Estado2);
-    printf("Codigo da Cidade: "); scanf("%s", &codigo2);
-    printf("Nome da Cidade: "); scanf("%s", &nomeCidade2);
+    printf("Codigo da Cidade: \n"); scanf("%s", &codigo2);
+    printf("Nome da Cidade: \n"); scanf("%s", &nomeCidade2);
     printf("Populacao: "); scanf("%d", &populacao2);
     printf("Area: "); scanf("%f", &area2);
     printf("PIB: "); scanf("%f", &PIB2);
