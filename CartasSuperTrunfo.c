@@ -31,13 +31,6 @@ int main(){
     printf("PIB: "); scanf("%f", &PIB2);
     printf("Pontos Turisticos: \n"); scanf("%d", &pontos2);
 
-    //Exibição e Comparação das Cartas
-    printf("\n---Comparação das Cartas (População) ---\n");
-    printf("Carta 1 (%s): %d\n", cod1, populacao1);
-    printf("Carta 2 (%s): %d\n", cod2, populacao2);
-    printf("Vencedor: ");
-
-
 
     return 0;
 }
