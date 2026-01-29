@@ -14,7 +14,7 @@ int main(){
     //Cadastro da Carta 1
     printf("\n---Cadastro Carta 1 ---\n");
     printf("Estado: "); scanf("%c", &Estado1);
-    printf("Codigo da Cidade: \n"); scanf("%s", &codigo1);
+    printf("Codigo da Cidade: \n"); scanf("%s", &cod1);
     printf("Nome da Cidade: \n"); scanf("%s", &nomeCidade1);
     printf("Populacao: "); scanf("%d", &populacao1);
     printf("Area: "); scanf("%f", &area1);
@@ -24,7 +24,7 @@ int main(){
     //Cadastro da Carta 2
     printf("\n---Cadastro Carta 2 ---\n");
     printf("Estado: "); scanf("%c", &Estado2);
-    printf("Codigo da Cidade: \n"); scanf("%s", &codigo2);
+    printf("Codigo da Cidade: \n"); scanf("%s", &cod2);
     printf("Nome da Cidade: \n"); scanf("%s", &nomeCidade2);
     printf("Populacao: "); scanf("%d", &populacao2);
     printf("Area: "); scanf("%f", &area2);
@@ -33,11 +33,11 @@ int main(){
 
     //Exibição e Comparação das Cartas
     printf("\n---Comparação das Cartas (População) ---\n");
-    printf("Carta 1 (%s): %d\n", codigo1, populacao1);
-    printf("Carta 2 (%s): %d\n", codigo2, populacao2);
-    
+    printf("Carta 1 (%s): %d\n", cod1, populacao1);
+    printf("Carta 2 (%s): %d\n", cod2, populacao2);
+    printf("Vencedor: ");
 
-    
+
 
     return 0;
 }
