@@ -14,21 +14,21 @@ int main(){
     //Cadastro da Carta 1
     printf("---Cadastro Carta 1 ---\n");
     printf("Estado: "); scanf("%c", &Estado1);
-    printf("Codigo da Cidade: \n"); scanf("%s", &codigo1);
-    printf("Nome da Cidade: \n"); scanf("%s", &nomeCidade1);
-    printf("Populacao: \n"); scanf("%d", &populacao1);
-    printf("Area: \n"); scanf("%f", &area1);
-    printf("PIB: \n"); scanf("%f", &PIB1);
-    printf("Pontos Turisticos: \n"); scanf("%d", &pontos1);
+    printf("Codigo da Cidade: "); scanf("%s", &codigo1);
+    printf("Nome da Cidade: "); scanf("%s", &nomeCidade1);
+    printf("Populacao: "); scanf("%d", &populacao1);
+    printf("Area: "); scanf("%f", &area1);
+    printf("PIB: "); scanf("%f", &PIB1);
+    printf("Pontos Turisticos: "); scanf("%d", &pontos1);
 
     //Cadastro da Carta 2
     printf("\n---Cadastro Carta 2 ---\n");
     printf("Estado: "); scanf("%c", &Estado2);
-    printf("Codigo da Cidade: \n"); scanf("%s", &codigo2);
-    printf("Nome da Cidade: \n"); scanf("%s", &nomeCidade2);
-    printf("Populacao: \n"); scanf("%d", &populacao2);
-    printf("Area: \n"); scanf("%f", &area2);
-    printf("PIB: \n"); scanf("%f", &PIB2);
+    printf("Codigo da Cidade: "); scanf("%s", &codigo2);
+    printf("Nome da Cidade: "); scanf("%s", &nomeCidade2);
+    printf("Populacao: "); scanf("%d", &populacao2);
+    printf("Area: "); scanf("%f", &area2);
+    printf("PIB: "); scanf("%f", &PIB2);
     printf("Pontos Turisticos: \n"); scanf("%d", &pontos2);
 
     //Exibição e Comparação das Cartas
